@@ -8,7 +8,7 @@ public class Player_Controller : MonoBehaviour
     public float turn_speed;
 
     Mensaje_Arduino mensaje_arduino;
-    public string ws_url = "ws://10.105.231.210";
+    public string ws_url = "ws://192.168.1.210";
     private WebSocket w;
     public float altura;
     public float aceleracion;

@@ -10,7 +10,7 @@
 #include <WebSocket.h>
 
 byte mac[] = { 0x52, 0x4F, 0x43, 0x4B, 0x45, 0x54 };
-byte ip[] = { 10, 105, 231 , 210 };
+byte ip[] = { 192, 168, 1 , 210 };
 
 // Create a Websocket server
 WebSocketServer wsServer;
